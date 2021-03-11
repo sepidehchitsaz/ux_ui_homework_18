@@ -1,0 +1,244 @@
+
+body {
+   background-color: #B9D8E4;
+   margin: 0px;
+   height: 100vh;
+
+}
+
+.hero {
+    position: relative;
+    height: 737px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(hero.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+
+.logo p {
+    color: #77C6E3;
+    font-size: 36px;
+    font-family: satisfy;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: 200;
+    
+    
+
+}
+ .hello p {
+     color: black;
+     font-family: caveat;
+     font-size: 36px;
+     margin: 15px;
+     display: flex;
+     justify-content:flex-end;
+     padding-right: 510px;
+     
+     
+ }
+     
+
+
+
+ .firstline p {
+     color: black;
+     font-size: 36px;
+     margin: 5px;
+     font-family: caveat;
+     justify-content: flex-end;
+     line-height: 1;
+     padding-left: 800px;
+     
+       
+ }
+
+ .secondline p {
+    color: black;
+    font-size: 36px;
+    margin: 5px;
+    font-family: caveat;
+    justify-content: flex-end;
+    line-height: 1;
+    padding-left: 800px;
+
+ }
+ 
+.me img {
+    width: 300px;
+    clip-path: circle();
+    float: right;
+    margin: 60px 100px;
+    
+
+}
+
+.navigation {
+    padding-top: 400px;
+    padding-left: 1000px;
+    
+    
+   
+    
+    
+    
+
+     
+    
+}
+
+nav a {
+    color: #FFC44B;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-family: courgette;
+
+    
+    
+    
+}
+
+
+.flexbox-container {
+    height: 750px;
+    display: flex;
+    background-color: #2D333F;
+    margin-top: 100px;
+    justify-content: space-around;
+
+}
+    
+.flexbox-item {
+    width: 440px;
+    margin: 100px 20px;
+    background-image: linear-gradient(#D95525, #120F11);
+    border-radius: 10px;
+    
+}    
+
+.flexbox-item-1 {
+    min-height: 550px;
+    color: #FFC44B;
+    line-height: 1.5;
+
+      
+
+}
+
+h3 {
+    font-family: oswald;
+    font-size: 24px;
+    line-height: 1;
+    font-size: 24px;
+    text-align: center;
+    
+    
+}
+
+h4 {
+    text-align: center;
+    font-size: 24px;
+    font-family: oswald;
+    line-height: 1;
+    font-weight: 200;
+    
+   
+    
+}
+
+h5 {
+    text-align: center;
+    font-size: 24px; 
+    font-family: oswald;
+    line-height: 1;
+    font-weight: 200;
+    
+}
+
+.frogs {
+    width: 440px;
+    height: 310px;
+    border-radius: 10px 10px 0px 0px;
+
+
+}
+.flexbox-item-2 {
+    min-height: 550px;
+    color: #FFC44B;
+    line-height: 1.5;
+}
+
+.click {
+    width: 440px;
+    height: 310px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.flexbox-item-3 {
+    min-height: 550px;
+    color: #FFC44B;
+    line-height: 1.5;
+}
+
+.education {
+    width: 440px;
+    height: 310px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer {
+    font-size: 18px;
+    font-family: courgette;
+    margin: 20px;
+    margin-top: 200px;
+
+}
+
+.email {
+    height: 50px;
+    margin: 5px;
+    position: relative;
+    bottom: 100px;
+    float: left;
+    margin-left: 650px;
+}
+
+.facebook {
+    height: 50px;
+    margin: 5px;
+    position: relative;
+    bottom: 100px;
+    float: left;
+    
+}
+
+.linkedin {
+    height: 45px;
+    margin: 5px;
+    position: relative;
+    bottom: 100px;
+    float: left;
+}
+
+.copyright {
+    height: 40px;
+    margin-top: 50px;
+    padding-left: 370px;
+    
+}
+
+h6 {
+    font-family: courgette;
+    font-size: 24px;
+    float: right;
+    margin-right: 20px;
+    font-weight: 100;
+
+}
+
