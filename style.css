@@ -18,6 +18,12 @@ body {
 
 }
 
+@media screen and (max-width: 600px) {
+    .hero {
+        height: 1000px;
+    }
+}
+
 h1 {
     color: #48AFBC;
     font-size: 36px;
@@ -28,28 +34,38 @@ h1 {
     padding-top: 40px;
     font-weight: 200;
     background-color: #1C2128;
+   
 
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 
 
 .navigation {
     justify-content: flex-end;
-    padding-left: 1000px;
+    padding-left: 1100px;
     background-color: #1C2128;
     height: 50px;
     padding-top: 0px;
     
-    
-   
-    
-    
-    
-
-     
-    
 }
 
+@media screen and (max-width:600px) {
+    .navigation {
+        justify-content: center;
+        padding-left: 170px;
+        height: 30px;
+        
+    }
+}  
+    
 
 
 nav a {
@@ -58,12 +74,8 @@ nav a {
     margin: 0 10px;
     font-size: 24px;
     letter-spacing: 4px;
-    font-family: courgette;
-    
-
-    
-    
-    
+    font-family: oswald;
+  
 }
 
 nav a:hover {
@@ -71,7 +83,11 @@ nav a:hover {
 }
 
     
-    
+@media screen and (max-width:600px) {
+    nav a {
+        font-size: 14px;
+    }
+}  
     
     
     
@@ -84,12 +100,22 @@ nav a:hover {
      margin: 15px;
      display: flex;
      justify-content:flex-end;
-     padding-right: 725px;
+     padding-right: 675px;
      padding-bottom: 5px;
-     padding-top: 200px;
+     padding-top: 150px;
      
      
  }
+
+ @media screen and (max-width:600px) {
+
+    .hello p {
+        font-size: 24px;
+        padding-right: 100px;
+    }
+ }
+
+
      
 
 
@@ -101,11 +127,21 @@ nav a:hover {
      font-family: caveat;
      justify-content: flex-end;
      line-height: 1;
-     padding-left: 200px;
+     padding-left: 150px;
      
      
        
  }
+
+ @media screen and (max-width:600px) {
+
+    .firstline p {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+ }
+
+
 
  .secondline p {
     color: black;
@@ -114,19 +150,38 @@ nav a:hover {
     font-family: caveat;
     justify-content: flex-end;
     line-height: 1;
-    padding-left: 200px;
+    padding-left: 150px;
 
  }
+
+ @media screen and (max-width:600px) {
+
+    .secondline p {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+ }
+
+
+
  
 .me img {
-    width: 300px;
+    width: 400px;
     clip-path: circle();
     float: right;
     margin-right: 100px;
-    margin-top: 170px;
+    margin-top: 120px;
     
     
 
+}
+
+@media screen and (max-width:600px) {
+    .me img {
+        width:100px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
 }
 
 .aboutme p {
@@ -138,25 +193,43 @@ nav a:hover {
     margin-top: 100px;
 }
 
+@media screen and (max-width :600px) {
+    .aboutme p{
+        font-size: 18px;
+        margin: 50px;
+
+    }
+}
 .title p{
     color: #E6D6C2;
     text-align: center;
     font-size: 48px;
-    padding-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 100px;
    
 }
 .flexbox-container {
-    height: 850px;
+    height: 625px;
     display: flex;
     justify-content: space-around;
+    margin-top: 0px;
+    flex-direction: row;
 
 
 }
 
+@media screen and (max-width:600px) {
+
+    .flexbox-container {
+        flex-direction: column;
+        margin-top: 800px;
+        margin-left: 40px;
+    }
+}
 
     
 .flexbox-item {
-    width: 440px;
+    width: 350px;
     margin: 100px 20px;
     background-color: #CCBEB8;
     border-radius: 10px;
@@ -168,22 +241,27 @@ nav a:hover {
     min-height: 550px;
     color: #2D333F;
     line-height: 1.5;
+  
+
 
       
 
 }
 
-h3 {
+h3,a {
     font-family: oswald;
     font-size: 24px;
     line-height: 1;
     font-size: 24px;
     text-align: center;
+    color: #2D333F;
+    text-decoration: none;
+    
     
     
 }
 
-h3:hover {
+h3,a:hover {
     color: #DC4625;
 }
 
@@ -208,8 +286,8 @@ h5 {
 }
 
 .frogs {
-    width: 440px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
     border-radius: 10px 10px 0px 0px;
     
 
@@ -222,10 +300,10 @@ h5 {
 }
 
 .click {
-    width: 440px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
     border-radius: 10px 10px 0px 0px;
-    background-color: black;
+   
 }
 
 .flexbox-item-3 {
@@ -235,11 +313,14 @@ h5 {
 }
 
 .education {
-    width: 440px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
     border-radius: 10px 10px 0px 0px;
     
 }
+
+
+    
 
 .footer {
     font-size: 18px;
@@ -248,6 +329,12 @@ h5 {
     margin-top: 200px;
     
 
+}
+
+@media screen and (max-width:600px) {
+    .footer {
+        margin-top: 1000px;
+    }
 }
 
 .email {
