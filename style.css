@@ -102,7 +102,7 @@ nav a:hover {
      margin: 15px;
      display: flex;
      justify-content:flex-end;
-     padding-right: 675px;
+     padding-right: 725px;
      padding-bottom: 5px;
      padding-top: 150px;
      
@@ -112,8 +112,8 @@ nav a:hover {
  @media screen and (max-width:600px) {
 
     .hello p {
-        font-size: 22px;
-        padding-right: 220px;
+        font-size: 18px;
+        padding-right: 200px;
         padding-top: 50px;
     }
  }
@@ -130,7 +130,7 @@ nav a:hover {
      font-family: caveat;
      justify-content: flex-end;
      line-height: 1;
-     padding-left: 150px;
+     padding-left: 100px;
      
      
        
@@ -139,7 +139,7 @@ nav a:hover {
  @media screen and (max-width:600px) {
 
     .firstline p {
-        font-size: 22px;
+        font-size: 18px;
         padding-left: 20px;
     }
  }
@@ -153,14 +153,14 @@ nav a:hover {
     font-family: caveat;
     justify-content: flex-end;
     line-height: 1;
-    padding-left: 150px;
+    padding-left: 100px;
 
  }
 
  @media screen and (max-width:600px) {
 
     .secondline p {
-        font-size: 22px;
+        font-size: 18px;
         padding-left: 20px;
     }
  }
@@ -181,7 +181,7 @@ nav a:hover {
 
 @media screen and (max-width:600px) {
     .me img {
-        width:100px;
+        width:150px;
         margin-right: 20px;
         margin-top: 20px;
     }
@@ -189,7 +189,7 @@ nav a:hover {
 
 .aboutme p {
     color: #C9AA8B;
-    font-family: courgette;
+    font-family: oswald;
     font-size: 24px;
     text-align: center;
     margin: 200px;
@@ -201,6 +201,7 @@ nav a:hover {
         font-size: 18px;
         margin: 50px;
 
+
     }
 }
 .title p{
@@ -209,6 +210,7 @@ nav a:hover {
     font-size: 48px;
     margin-bottom: 0px;
     padding-top: 100px;
+    font-family: oswald;
    
 }
 .flexbox-container {
@@ -243,7 +245,7 @@ nav a:hover {
 }    
 
 .flexbox-item-1 {
-    min-height: 550px;
+    min-height: 500px;
     color: #2D333F;
     line-height: 1.5;
   
@@ -255,12 +257,13 @@ nav a:hover {
 
 h3,a {
     font-family: oswald;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 1;
     font-size: 24px;
     text-align: center;
     color: #2D333F;
-    text-decoration: none;
+    text-decoration:none;
+    font-weight: bold;
     
     
     
@@ -272,7 +275,7 @@ h3,a:hover {
 
 h4 {
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     font-family: oswald;
     line-height: 1;
     font-weight: 200;
@@ -283,7 +286,7 @@ h4 {
 
 h5 {
     text-align: center;
-    font-size: 24px; 
+    font-size: 18px; 
     font-family: oswald;
     line-height: 1;
     font-weight: 200;
@@ -299,7 +302,7 @@ h5 {
 
 }
 .flexbox-item-2 {
-    min-height: 550px;
+    min-height: 500px;
     color: #2D333F;
     line-height: 1.5;
 }
@@ -312,7 +315,7 @@ h5 {
 }
 
 .flexbox-item-3 {
-    min-height: 550px;
+    min-height: 500px;
     color: #2D333F;
     line-height: 1.5;
 }
@@ -395,7 +398,7 @@ h5 {
 .copyright {
     height: 35px;
     margin-top: 55px;
-    padding-left: 410px;
+    padding-left: 425px;
     
 }
 
