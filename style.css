@@ -20,7 +20,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .hero {
-        height: 350px;
+        height: 400px;
     }
 }
 
@@ -50,7 +50,7 @@ h1 {
 
 .navigation {
     justify-content: flex-end;
-    padding-left: 1100px;
+    padding-left: 1050px;
     background-color: #1C2128;
     height: 50px;
     padding-top: 0px;
@@ -102,7 +102,7 @@ nav a:hover {
      margin: 15px;
      display: flex;
      justify-content:flex-end;
-     padding-right: 725px;
+     padding-right: 770px;
      padding-bottom: 5px;
      padding-top: 150px;
      
@@ -113,8 +113,9 @@ nav a:hover {
 
     .hello p {
         font-size: 18px;
-        padding-right: 200px;
-        padding-top: 50px;
+        padding-right: 190px;
+        padding-top: 100px;
+        line-height: 1;
     }
  }
 
@@ -139,8 +140,10 @@ nav a:hover {
  @media screen and (max-width:600px) {
 
     .firstline p {
-        font-size: 18px;
-        padding-left: 20px;
+        font-size: 16px;
+        padding-left: 0px;
+        margin: 40px;
+        line-height: 0;
     }
  }
 
@@ -160,8 +163,12 @@ nav a:hover {
  @media screen and (max-width:600px) {
 
     .secondline p {
-        font-size: 18px;
-        padding-left: 20px;
+        font-size: 16px;
+        padding-left: 0px;
+        margin: 40px;
+        line-height: 0;
+        
+        
     }
  }
 
@@ -172,7 +179,7 @@ nav a:hover {
     width: 400px;
     clip-path: circle();
     float: right;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-top: 80px;
     
     
@@ -182,7 +189,7 @@ nav a:hover {
 @media screen and (max-width:600px) {
     .me img {
         width:150px;
-        margin-right: 20px;
+        margin-right: 10px;
         margin-top: 20px;
     }
 }
@@ -196,7 +203,7 @@ nav a:hover {
     margin-top: 100px;
 }
 
-@media screen and (max-width :600px) {
+@media screen and (max-width:600px) {
     .aboutme p{
         font-size: 18px;
         margin: 50px;
@@ -209,9 +216,15 @@ nav a:hover {
     text-align: center;
     font-size: 48px;
     margin-bottom: 0px;
-    padding-top: 100px;
+    padding-top: 0px;
     font-family: oswald;
    
+}
+
+@media screen and (max-width: 600px) {
+    .title p{
+        padding-top: 50px;
+    }
 }
 .flexbox-container {
     height: 625px;
